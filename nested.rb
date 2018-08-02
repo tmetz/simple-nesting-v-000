@@ -86,7 +86,7 @@ def adding_matz
     #     :languages => ["LISP", "C"]
     #   }
       programmer_hash[:yukihiro_matsumoto] = "test"
-
+      puts programmer_hash
 
 end
 
@@ -130,3 +130,5 @@ def adding_to_dennis
      }
 
 end
+
+adding_matz
